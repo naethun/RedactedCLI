@@ -1,10 +1,12 @@
 # RedactedCLI
 A software that automated tasks for our users on Discord and across the NFT space. We built a community of 2,600+ members throughout the whole process.
 
+
 # Feature overview
 - MagicEden NFT Sniper: User set a price for a specific NFT, we handled searching the backend for it, and proccessed the transaction on the blockchain it as soon as it finds the matching parameters.
 - Multi-Threaded CandyMachine NFT Minter: User set a NFT mint they wanted, we processed the transaction within a second as soon as it went live.
 - Discord Mass Server Joiner, Auto link clicker, and much much more
+
 
 # Flow of Candy Machine v2 Mint:
 
@@ -22,6 +24,7 @@ Confirm & report
 
 Retry policy
 - On missing txid or failure, backoff (setTimeout) and re-enter MintInit(). Visible success/error logs persist per task.
+
 
 # Flow of MagicEden Sniper:
 Boot & UI
